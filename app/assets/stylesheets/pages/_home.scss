@@ -1,0 +1,47 @@
+// Specific CSS for your home-page
+.container-home {
+  background-image: asset-url("red_light_landing_page.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  color: #CCCCCC;
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: -5px;
+  font-weight: 400;
+  padding-top: 30px;
+  margin: 0;
+  margin-bottom: -1rem;
+
+}
+
+h3 {
+  color: #CCCCCC;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-style: italic;
+  margin: 0;
+}
+
+footer {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -1px;
+  a {
+    text-decoration: none;
+    color: $light-gray;
+    &:hover {
+      color: $light-gray;
+    }
+  }
+}
